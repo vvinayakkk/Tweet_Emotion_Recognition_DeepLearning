@@ -6,11 +6,16 @@ This project aims to classify emotions in tweets using a recurrent neural networ
 
 The goal of this project is to develop a machine learning model capable of accurately predicting the emotional content of tweets. Emotion classification in natural language processing (NLP) is crucial for various applications, including sentiment analysis and customer feedback analysis.
 
+![download (1)](https://github.com/user-attachments/assets/f6bbc5ab-6b88-44f7-afa7-66b003a5a056)
+
+
 ## Methodology
 
 ### Data Preparation
 
 - **Importing and Cleaning Data:** The dataset (`tweeter_emo.csv`) was imported and cleaned to focus on relevant columns (`text` and `emotions`). Duplicate entries were removed to ensure data integrity.
+
+![download (2)](https://github.com/user-attachments/assets/135c75fb-a28b-49b6-9ecf-18fedc937216)
 
 ### Model Development
 
@@ -24,7 +29,11 @@ The goal of this project is to develop a machine learning model capable of accur
 
 - **Evaluation:** Model performance was evaluated on a separate test set using metrics such as accuracy and loss. The test loss was 0.82657, indicating the average loss per sample during testing. The model achieved a precision of 76%, demonstrating its ability to correctly classify tweets into the correct emotion categories.
 
+![download (3)](https://github.com/user-attachments/assets/2d0c5ded-6623-45b2-a45f-e8dbb25c3d94)
+
 - **Confusion Matrix:** Confusion matrices and visualizations were used to analyze model predictions and identify any patterns or biases.
+
+![download (4)](https://github.com/user-attachments/assets/8fb39a5a-533c-470b-9768-a74a212357d2)
 
 ## Observations
 
